@@ -337,7 +337,7 @@ body {
   align-items: center;
   position: relative;
   background-image: url("./image/Mask\ Group.png"), url("./image/Group.png");
-  background-repeat: no-repeat, no-repeat; 
+  background-repeat: no-repeat, no-repeat;
   background-position: 100% 0.4%, 0% 24%;
 }
 
@@ -439,7 +439,7 @@ body {
   align-items: center;
 }
 
-.tagbox li {
+.skill-card .tagbox li {
   list-style-type: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -457,7 +457,7 @@ body {
   justify-content: center;
 }
 
-.tagbox ul li {
+.skill-card .tagbox ul li {
   list-style-type: none;
   margin: 4px;
   font-family: 'Inter', sans-serif;
