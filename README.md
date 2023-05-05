@@ -101,8 +101,6 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Skill Cart**
--  **Project Cart**
 -  **Contact Form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
