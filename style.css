@@ -511,7 +511,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 0px;
   gap: 24px;
   width: 327px;
   margin-top: 58px;
@@ -561,7 +560,7 @@ form button {
   border: 0;
 }
 
-form button:active {
+.form-wrapper form button:active {
   background-color: #008552;
 }
 
@@ -575,7 +574,7 @@ form button:active {
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  margin: 31px 0px 29px;
+  margin: 31px auto 29px;
 }
 
 .form-wrapper ul {
@@ -587,15 +586,10 @@ form button:active {
   align-self: center;
 }
 
-.form-wrapper ul li {
+#form-secton .form-wrapper ul li {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-.form-wrapper ul li a {
-  padding: 0;
-  margin: 0;
 }
 
 .form-wrapper ul li a img {
@@ -632,6 +626,6 @@ form button:active {
   width: 134px;
   height: 5px;
   margin: 32.08px 0 8px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
