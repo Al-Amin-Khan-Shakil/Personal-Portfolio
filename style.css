@@ -627,3 +627,11 @@ form button:active {
   width: 14.17px;
   height: 18.62px;
 }
+
+.form-wrapper .shape {
+  width: 134px;
+  height: 5px;
+  margin: 32.08px 0 8px;
+  background: #0D151E;
+  border-radius: 10px;
+}
