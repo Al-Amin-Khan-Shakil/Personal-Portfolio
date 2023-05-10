@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -84,7 +84,7 @@ body {
 .title {
   width: 327px;
   height: 211px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   text-align: center;
 }
@@ -108,7 +108,7 @@ body {
   width: 327px;
   height: 164px;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -208,7 +208,7 @@ body {
 }
 
 .showcase-title h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -260,7 +260,7 @@ body {
 .card-info h3 {
   width: 295px;
   height: 57px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #3a4a42;
   font-style: normal;
   font-weight: 600;
@@ -280,7 +280,7 @@ body {
   list-style-type: none;
   padding: 8px 12px;
   background-color: #ebf0ee;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -303,7 +303,7 @@ body {
   text-align: center;
   background-color: #36b37f;
   padding: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -359,7 +359,7 @@ body {
 }
 
 .about-title h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -370,7 +370,7 @@ body {
 .descrip {
   width: 351px;
   height: 194px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -384,7 +384,7 @@ body {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -441,7 +441,7 @@ body {
 
 .skill-card .tagbox li {
   list-style-type: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -460,7 +460,7 @@ body {
 .skill-card .tagbox ul li {
   list-style-type: none;
   margin: 4px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -471,4 +471,37 @@ body {
   padding: 12px;
   text-align: center;
   border-radius: 8px;
+}
+
+/* design form section */
+
+#form-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-section .form-wrapper {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./image/Frame.png");
+  background-repeat: no-repeat;
+  background-position: 100% 90.2%;
+}
+
+.form-wrapper .form-trigger {
+  width: 327px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 30px;
 }
