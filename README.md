@@ -86,6 +86,29 @@ Install this project with:
   cd my-project
    npm install
 ```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  cd my-portfolio
+  index.html
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+  npx hint .
+```
+
+### Deployment
+
+You can deploy this project using:
+Your Working Browser.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -101,7 +124,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Contact Form**
+-  **Desktop vershion style**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
