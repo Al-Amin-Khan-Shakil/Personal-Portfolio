@@ -523,12 +523,12 @@ form input {
   border-radius: 4px;
   width: 100%;
   padding: 15px 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #6b778C;
+  color: #6b778c;
 }
 
 form textarea {
@@ -538,16 +538,16 @@ form textarea {
   height: 114px;
   width: 100%;
   padding: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;  
+  line-height: 24px;
   color: #42526e;
 }
 
 form button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -563,4 +563,67 @@ form button {
 
 form button:active {
   background-color: #008552;
+}
+
+.form-wrapper .my-email {
+  height: 38px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin: 31px 0px 29px;
+}
+
+.form-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style-type: none;
+  width: 170px;
+  align-self: center;
+}
+
+.form-wrapper ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-wrapper ul li a {
+  padding: 0;
+  margin: 0;
+}
+
+.form-wrapper ul li a img {
+  padding: 0;
+  margin: 0;
+}
+
+.form-wrapper ul .twitter {
+  width: 19.28px;
+  height: 18.58px;
+}
+
+.form-wrapper ul .linkedin {
+  width: 20px;
+  height: 18.62px;
+}
+
+.form-wrapper ul .medium {
+  width: 20px;
+  height: 15.69px;
+}
+
+.form-wrapper ul .github {
+  width: 17.99px;
+  height: 18.62px;
+}
+
+.form-wrapper ul .angellist {
+  width: 14.17px;
+  height: 18.62px;
 }
