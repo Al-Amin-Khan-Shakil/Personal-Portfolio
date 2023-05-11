@@ -116,14 +116,46 @@ body {
 #hero .info {
   width: 100%;
   height: auto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
   line-height: 32px;
-  text-align: center;
   margin: 0;
 }
 
 #hero .info p{
   padding: 0 25px;
 }
+
+/* social media icon */
+
+#hero .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .social ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.chevron {
+  margin: 84px auto 400px; 
+}
+
+/* work section title */
+
+body .showcase-title {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+}
+
+body .title-box {
+  text-align: center;
+  width: 100%;
+}
+
+.separator {
+  display: none;
+}
+
