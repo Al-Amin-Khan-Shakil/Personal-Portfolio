@@ -227,3 +227,54 @@ body #aboutme .aboutwrapper {
 .aboutwrapper .skill-card {
   margin-top: 25px;
 }
+
+/* Design Form Section */
+
+body #form-section .form-wrapper {
+  width: 81.38vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: none;
+}
+
+#form-section .form-wrapper .form-trigger {
+  width: 32.14vw;
+  font-size: 30px;
+  margin: 0;
+}
+
+body #form-section .form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  width: 47.5vw;
+  margin: 0;
+}
+
+#form-section .form-wrapper .my-email {
+  height: 38px;
+  width: 100%;
+  color: #42526e00;
+  margin: 31px auto;
+}
+
+#form-section .form-wrapper ul {
+  width: 100%;
+  justify-content: center;
+  gap: 21px;
+  padding: 20px;
+}
+
+#form-section .form-wrapper .shape {
+  display: none;
+}
+
+#form-section .horizontal {
+  height: 1px;
+  background: #dfe1e6;
+  width: 100vw;
+  margin-top: -63.28px;
+}
