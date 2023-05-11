@@ -43,7 +43,7 @@ body {
   display: none;
 }
 
-#navbar .manu {
+#hero #navbar .manu {
   display: flex;
   justify-content: center;
   gap: 32px;
@@ -230,12 +230,20 @@ body #aboutme .aboutwrapper {
 
 /* Design Form Section */
 
+body #form-section {
+  background-image: url("./image/Frame@contact.png"), url("./image/illustration-2-contact-form-desktop@2x.png"), url("./image/Frame@contact-2.png");
+  background-repeat: no-repeat;
+  background-size: 235px 261px, 130px 105px, 250px 490px;
+  background-position: 0% 95%, 22% 85%, 100% 95%; 
+}
+
 body #form-section .form-wrapper {
   width: 81.38vw;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   background-image: none;
+  margin-top: 95px;
 }
 
 #form-section .form-wrapper .form-trigger {
@@ -258,14 +266,14 @@ body #form-section .form-wrapper form {
   height: 38px;
   width: 100%;
   color: #42526e00;
-  margin: 31px auto;
+  margin: 100px auto;
 }
 
 #form-section .form-wrapper ul {
   width: 100%;
   justify-content: center;
   gap: 21px;
-  padding: 20px;
+  padding: 60px 20px 20px 20px;
 }
 
 #form-section .form-wrapper .shape {

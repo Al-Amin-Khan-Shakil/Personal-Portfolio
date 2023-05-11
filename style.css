@@ -37,6 +37,10 @@ body {
   justify-content: end;
 }
 
+#navbar .manu {
+  display: none;
+}
+
 .hamburger {
   position: relative;
   right: 8vw;
