@@ -124,7 +124,7 @@ Your Working Browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Desktop vershion style**
+-  **Descriptive Recent work pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
