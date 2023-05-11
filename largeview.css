@@ -159,3 +159,26 @@ body .title-box {
   display: none;
 }
 
+body #worksection {
+  margin-top: 52px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 32px;
+  column-gap: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 81.38vw;
+  margin-left: 9.31vw;
+  margin-right: 9.31vw;
+}
+
+.card {
+  width: 327px;
+  height: 474px;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
