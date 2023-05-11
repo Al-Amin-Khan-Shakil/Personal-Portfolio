@@ -201,8 +201,9 @@ body #aboutme .aboutwrapper {
 
 #aboutme .aboutwrapper .aboutbox {
   margin-top: 80px;
-  width: 63.8vw;
+  width: 100%;
   height: auto;
+  padding: 0 8.75vw;
 }
 
 #aboutme .aboutwrapper .about-title {
@@ -230,7 +231,7 @@ body #aboutme .resumebtn a {
 body #form-section {
   background-image: url("./image/Frame@contact.png"), url("./image/illustration-2-contact-form-desktop@2x.png"), url("./image/Frame@contact-2.png");
   background-repeat: no-repeat;
-  background-size: 235px 261px, 130px 105px, 20px 490px;
+  background-size: 235px 261px, 130px 105px, 200px 490px;
   background-position: 0% 95%, 22% 85%, 100% 95%;
 }
 
