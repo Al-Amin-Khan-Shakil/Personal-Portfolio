@@ -59,3 +59,71 @@ body {
   text-decoration: none;
   color: #344563;
 }
+
+#hero .banner {
+  width: 100vw;
+  height: auto;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+#hero .banner .introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 63.8vw;
+}
+
+#hero .title {
+  width:63.8vw;
+  height: auto;
+  font-style: normal;
+  text-align: center;
+  margin-top: 160px;
+}
+
+#hero .title h1 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#hero .title h1 span:not(:last-child) {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.37px;
+}
+
+#hero .title h1:last-child {
+  flex-basis: 100%;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.37px;
+}
+
+#hero .info {
+  width: 100%;
+  height: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0;
+}
+
+#hero .info p{
+  padding: 0 25px;
+}
