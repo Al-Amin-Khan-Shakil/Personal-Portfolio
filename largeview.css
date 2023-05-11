@@ -42,3 +42,20 @@ body {
 #navbar .hamburger {
   display: none;
 }
+
+#navbar .manu {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#navbar .manu li a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #344563;
+}
