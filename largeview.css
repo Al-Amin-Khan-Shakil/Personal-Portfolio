@@ -14,7 +14,6 @@ body {
   align-items: center;
 }
 
-
 /* design hero section */
 
 #hero {
@@ -81,7 +80,7 @@ body {
 }
 
 #hero .title {
-  width:63.8vw;
+  width: 63.8vw;
   height: auto;
   font-style: normal;
   text-align: center;
@@ -89,7 +88,7 @@ body {
 }
 
 #hero .title h1 {
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -120,7 +119,7 @@ body {
   margin: 0;
 }
 
-#hero .info p{
+#hero .info p {
   padding: 0 25px;
 }
 
@@ -138,9 +137,7 @@ body {
   margin: 0;
 }
 
-.chevron {
-  margin: 84px auto 400px; 
-}
+.chevron { margin: 84px auto 400px; }
 
 /* work section title */
 
@@ -220,7 +217,7 @@ body #aboutme .aboutwrapper {
   margin-top: 24px;
 }
 
-#aboutme .resumebtn a {
+body #aboutme .resumebtn a {
   margin-top: 24px;
 }
 
@@ -233,8 +230,8 @@ body #aboutme .aboutwrapper {
 body #form-section {
   background-image: url("./image/Frame@contact.png"), url("./image/illustration-2-contact-form-desktop@2x.png"), url("./image/Frame@contact-2.png");
   background-repeat: no-repeat;
-  background-size: 235px 261px, 130px 105px, 250px 490px;
-  background-position: 0% 95%, 22% 85%, 100% 95%; 
+  background-size: 235px 261px, 130px 105px, 20px 490px;
+  background-position: 0% 95%, 22% 85%, 100% 95%;
 }
 
 body #form-section .form-wrapper {
