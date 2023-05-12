@@ -232,6 +232,11 @@ body #aboutme .resumebtn a {
 
 .aboutwrapper .skill-card {
   margin-top: 25px;
+  transition: border 0.6s;
+}
+
+.aboutwrapper .skill-card:hover {
+  border: 2px solid #01ae6c;
 }
 
 /* Design Form Section */
