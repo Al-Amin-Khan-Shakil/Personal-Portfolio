@@ -54,7 +54,7 @@ body {
   left: 0;
 }
 
-#hero #navbar .manu li a {
+#hero .manu a {
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -232,7 +232,7 @@ body #aboutme .aboutwrapper {
   margin-top: 24px;
 }
 
-body #aboutme .resumebtn a {
+#aboutme .resumebtn a {
   margin-top: 24px;
 }
 
