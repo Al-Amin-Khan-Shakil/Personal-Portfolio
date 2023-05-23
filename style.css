@@ -47,7 +47,26 @@ body {
 }
 
 #navbar .manu {
-    display: none;
+    display: block;
+    width: 100vw;
+    margin-top: 78px;
+    position: relative;
+    left: 28px;
+}
+
+#navbar .manu li {
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+#navbar .manu li a {
+    color: #3a4a42;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
 }
 
 .hamburger {
@@ -58,18 +77,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#navbar i {
-    color: #28352f;
-    font-size: 18px;
-    transition: all 0.1s;
-}
-
-#navbar i:hover {
-    color: rgb(57, 85, 178);
-    font-size: 28px;
-    transition: all 0.1s;
 }
 
 
