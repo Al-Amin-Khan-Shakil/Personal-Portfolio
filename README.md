@@ -126,6 +126,12 @@ Your Working Browser.
 - GitHub: [Al Amin Khan Shakil](https://github.com/Al-Amin-Khan-Shakil)
 - LinkedIn: [Al Amin Khan Shakil](https://linkedin.com/in/Al-Amin-Khan-Shakil)
 
+👤 **Author**
+
+- GitHub: [@githubhandle](https://github.com/richie1988)
+- Twitter: [@twitterhandle](@RICHARDSIK51272)
+- LinkedIn: [LinkedIn](in/richard-sikaonga-039940275)
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
