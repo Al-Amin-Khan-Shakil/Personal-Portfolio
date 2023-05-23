@@ -69,16 +69,39 @@ body {
     line-height: 44px;
 }
 
-.hamburger {
-    position: relative;
-    right: 8vw;
-    height: 24px;
-    width: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#navbar #closebtn {
+  color:#3a4a42;
+  position: relative;
+  left: 85%;
+  top: 2vh;
+  font-weight: 200;
+  font-size: 26px;
+  padding: 6px;
 }
 
+.hamburger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.hamburger a:first-child i {
+  position: absolute;
+  right: 24px;
+  top: 2.6vh;
+  font-size: 20px;
+  transition: transform 0.1s;
+}
+
+.hamburger a:first-child:hover i {
+  transform: scale(1.2);
+}
 
 /* banner design */
 

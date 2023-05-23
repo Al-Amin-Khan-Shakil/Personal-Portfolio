@@ -28,17 +28,18 @@ body {
 
 #hero #navbar {
   width: 100vw;
-  height: vw;
+  height: 8vh;
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: #0000;
 }
 
-#navbar .hamburger {
+#hero .hamburger {
+  display: none;
+}
+
+#hero #navbar #closebtn {
   display: none;
 }
 
@@ -48,15 +49,19 @@ body {
   gap: 32px;
   list-style-type: none;
   text-align: center;
+  margin: 0;
+  padding-top: 2vh;
+  left: 0;
 }
 
-#navbar .manu li a {
+#hero #navbar .manu li a {
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
   text-decoration: none;
   color: #344563;
+  margin: 0;
 }
 
 #hero .banner {
