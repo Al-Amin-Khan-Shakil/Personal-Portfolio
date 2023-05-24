@@ -34,9 +34,10 @@ body {
 #navbar {
   display: block;
   width: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
+  overflow: hidden;
   height: 92vh;
   background-color: #fff;
   border-radius: 0 0 20px 20px;
