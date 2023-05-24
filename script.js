@@ -1,9 +1,10 @@
-//mobile menu
+/* mobile menu */
 function openNav() {
-    document.getElementById("navbar").style.width = "100%";
+  document.getElementById('navbar').style.width = '100%';
 }
-
 function closeNav() {
-    document.getElementById("navbar").style.width = "0%";
+  document.getElementById('navbar').style.width = '0%';
 }
-//mobile menu end
+openNav();
+closeNav();
+/* mobile menu end */
