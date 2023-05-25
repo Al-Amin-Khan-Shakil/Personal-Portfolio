@@ -9,6 +9,11 @@ function openNav() {
 function closeNav() {
   document.getElementById('navbar').style.width = '0%';
 }
+function checkDisplayWidth() {
+  if (window.innerWidth < 768) {
+    closeNav();
+  }
+}
 
 window.onclick = function removeMenu(event) {
   switch (event.target) {
@@ -25,5 +30,6 @@ window.onclick = function removeMenu(event) {
   }
 };
 openNav();
-closeNav();
+window.addEventListener('resize', checkDisplayWidth);
+checkDisplayWidth();
 /* mobile menu end */
