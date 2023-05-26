@@ -52,6 +52,9 @@
 
 - **Linters Setup**
 - **Mobile First Design**
+- **Dynamic work section**
+- **popup modal**
+- **Mobile menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,8 +139,9 @@ Your Working Browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Descriptive Recent work pages**
-- **Mobile Menu**
+
+- **Client side validation**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
