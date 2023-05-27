@@ -55,6 +55,8 @@
 - **Dynamic work section**
 - **popup modal**
 - **Mobile menu**
+- **Client side form Validation**
+- **Preserve Data in Local Storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +142,7 @@ Your Working Browser.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- **Client side validation**
+- **full Website animation effect**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
