@@ -90,3 +90,8 @@ function closeModal(event) {
 }
 
 window.addEventListener('click', closeModal);
+
+const form = document.getElementById("formV");
+const email = document.getElementById("emailV");
+const errorMsg = document.querySelector(".error");
+
