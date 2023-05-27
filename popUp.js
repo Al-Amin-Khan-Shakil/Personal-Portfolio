@@ -99,11 +99,14 @@ const errorMsg = document.querySelector('.error');
 
 form.addEventListener('submit', (e) => {
   const msg = [];
-  const emailValid = email.value;
-  const nameValue = myName.value;
+  const formData = {
+    inEmail: email.value,
+    inName: myName.value,
+  };
+
   const lowerCaseRe = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
 
-  if (!lowerCaseRe.test(emailValid)) {
+  if (!lowerCaseRe.test(formData.inEmail)) {
     msg.push('Use only lower case letters');
   }
 
@@ -112,11 +115,8 @@ form.addEventListener('submit', (e) => {
     errorMsg.innerText = msg.join(', ');
   }
 
-  const formData = {
-    storeName: localStorage.setItem('nameValue', nameValue),
-    storeEmail: localStorage.setItem('emailValue', emailValid),
-  };
-  formData.has('storeName');
+  localStorage.setItem('nameValue', formData.inName);
+  localStorage.setItem('emailValue', formData.inEmail);
 });
 
 document.addEventListener('DOMContentLoaded', () => {
