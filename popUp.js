@@ -94,11 +94,13 @@ window.addEventListener('click', closeModal);
 
 const form = document.getElementById('formV');
 const email = document.getElementById('emailV');
+const myName = document.getElementById('nameV');
 const errorMsg = document.querySelector('.error');
 
 form.addEventListener('submit', (e) => {
   const msg = [];
   const emailValid = email.value;
+  const nameValue = myName.value;
   const lowerCaseRe = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
 
   if (!lowerCaseRe.test(emailValid)) {
@@ -108,5 +110,17 @@ form.addEventListener('submit', (e) => {
   if (msg.length > 0) {
     e.preventDefault();
     errorMsg.innerText = msg.join(', ');
+  }
+
+  const formData = {
+    storeName: localStorage.setItem("nameValue", nameValue),
+    storeEmail: localStorage.setItem("emailValue", emailValid)
+  }
+});
+
+document.addEventListener("DOMContentLoaded", (e) => {
+  if (localStorage.getItem("nameValue") && localStorage.getItem("emailValue")) {
+    myName.value = localStorage.getItem("nameValue");
+    email.value = localStorage.getItem("emailValue");
   }
 });
