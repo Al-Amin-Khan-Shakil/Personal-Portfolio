@@ -113,14 +113,15 @@ form.addEventListener('submit', (e) => {
   }
 
   const formData = {
-    storeName: localStorage.setItem("nameValue", nameValue),
-    storeEmail: localStorage.setItem("emailValue", emailValid)
-  }
+    storeName: localStorage.setItem('nameValue', nameValue),
+    storeEmail: localStorage.setItem('emailValue', emailValid),
+  };
+  formData.has('storeName');
 });
 
-document.addEventListener("DOMContentLoaded", (e) => {
-  if (localStorage.getItem("nameValue") && localStorage.getItem("emailValue")) {
-    myName.value = localStorage.getItem("nameValue");
-    email.value = localStorage.getItem("emailValue");
+document.addEventListener('DOMContentLoaded', () => {
+  if (localStorage.getItem('nameValue') && localStorage.getItem('emailValue')) {
+    myName.value = localStorage.getItem('nameValue');
+    email.value = localStorage.getItem('emailValue');
   }
 });
